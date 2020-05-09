@@ -1,0 +1,20 @@
+{
+  "name": "backend-koa-mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jinho6225/backend-koa-mongoose.git",
+  "author": "jinho6225 <jinho6225@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.js"
+  }
+}
