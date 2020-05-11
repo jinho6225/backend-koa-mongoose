@@ -1,3 +1,5 @@
+const Book = require('models/book');
+
 exports.list = (ctx) => {
   ctx.body = 'listed';
 };
