@@ -18,4 +18,4 @@ const Book = new Schema({
   },
 });
 
-module.exports = mongoose.model('Book', Book, 'custom_book_collection');
+module.exports = mongoose.model('Book', Book);
