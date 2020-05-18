@@ -1,15 +1,19 @@
 {
   "name": "backend-koa-mongoose",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/jinho6225/backend-koa-mongoose.git",
   "author": "jinho6225 <jinho6225@hotmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "eslint-plugin-node": "^11.1.0",
+    "express": "^4.17.1",
     "koa": "^2.12.0",
     "koa-router": "^8.0.8",
+    "mongoose": "^5.9.14",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
@@ -17,8 +21,7 @@
     "eslint-plugin-react": "^7.20.0"
   },
   "scripts": {
-    "start": "node src",
-    "start:dev": "nodemon --watch src/ src/index.js"
-
+    "start": "node app.js",
+    "start:dev": "nodemon --watch app.js"
   }
 }
