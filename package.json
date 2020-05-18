@@ -1,0 +1,12 @@
+{
+  "name": "backend-koa-mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jinho6225/backend-koa-mongoose.git",
+  "author": "jinho6225 <jinho6225@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.12.0"
+  }
+}
